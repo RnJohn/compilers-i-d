@@ -13,12 +13,12 @@ bool is_email_valid(const std::string& email)
 	return std::regex_match(email, pattern);
 }
 
-int main()
-{
-	std::string email1;
-	std::cout << "Escriba el email \n";
-	std::cin >> email1;
+//int main()
+//{
+//	std::string email;
+//	std::cout << "Escriba el email \n";
+//	std::cin >> email;
 
-	std::cout << email1 << " : " << (is_email_valid(email1) ?
-		"valido" : "invalido") << std::endl;
-}
+//	std::cout << email << " : " << (is_email_valid(email) ?
+	//	"valido" : "invalido") << std::endl;
+//}

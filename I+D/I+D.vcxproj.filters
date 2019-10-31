@@ -18,5 +18,8 @@
     <ClCompile Include="emailchecker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ipchecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
